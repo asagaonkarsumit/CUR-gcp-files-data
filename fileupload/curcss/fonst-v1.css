@@ -1,0 +1,93 @@
+*[style="font-size: 3.75rem;"] {
+    font-size: 2.25rem !important;
+    line-height: 122%;
+    letter-spacing: -0.02em;
+}
+
+*[style="font-size: 3rem;"] {
+    font-size: 1.875rem !important;
+    line-height: 127%;
+    letter-spacing: -0.02em;
+}
+
+*[style="font-size: 2.25rem;"] {
+    font-size: 1.875rem !important;
+    line-height: 127%;
+    letter-spacing: -0.02em;
+}
+
+*[style="font-size: 1.875rem;"] {
+    font-size: 1.5rem !important;
+    line-height: 133%;
+}
+
+*[style="font-size: 1.5rem;"] {
+    font-size: 1.25rem !important;
+    line-height: 150%;
+}
+
+*[style="font-size: 1.25rem;"] {
+    font-size: 1.125rem !important;
+    line-height: 156%;
+}
+
+*[style="font-size: 1.125rem;"] {
+    font-size: 1.125rem !important;
+    line-height: 156%;
+}
+
+*[style="font-size: 1rem;"] {
+    font-size: 1rem !important;
+    line-height: 150%;
+}
+
+@media (min-width: 640px) {}
+
+@media (min-width: 768px) {
+    *[style="font-size: 3.75rem;"] {
+        line-height: 120%;
+        font-size: 3.75rem !important;
+        letter-spacing: -0.02em;
+    }
+    *[style="font-size: 3rem;"] {
+        font-size: 3rem !important;
+        line-height: 125%;
+        letter-spacing: -0.02em;
+    }
+    *[style="font-size: 2.25rem;"] {
+        font-size: 2.25rem !important;
+        line-height: 125%;
+        letter-spacing: -0.02em;
+    }
+    *[style="font-size: 2.25rem;"] {
+        font-size: 2.25rem !important;
+        line-height: 125%;
+        letter-spacing: -0.02em;
+    }
+    *[style="font-size: 1.875rem;"] {
+        font-size: 1.875rem !important;
+        line-height: 127%;
+    }
+    *[style="font-size: 1.5rem;"] {
+        font-size: 1.5rem !important;
+        line-height: 133%;
+    }
+    *[style="font-size: 1.25rem;"] {
+        font-size: 1.25rem !important;
+        line-height: 150%;
+    }
+    *[style="font-size: 1.125rem;"] {
+        font-size: 1.125rem !important;
+        line-height: 156%;
+    }
+    *[style="font-size: 1rem;"] {
+        font-size: 1rem !important;
+        line-height: 150%;
+    }
+}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1280px) {}
+
+@media (min-width: 1536px) {}

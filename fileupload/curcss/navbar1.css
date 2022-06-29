@@ -1,0 +1,106 @@
+.ql-editor {
+    box-sizing: border-box;
+    line-height: normal;
+    height: auto;
+    outline: none;
+    overflow-y: auto;
+    padding: 0px 0px;
+    tab-size: 4;
+    -moz-tab-size: 4;
+    text-align: left;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.nav-sticky-css {
+    /* position: sticky;
+  top: 40px;
+  box-shadow: 0 0px 1px 0 rgb(0 0 0 / 20%), 0 10px 8px 0 rgb(0 0 0 / 19%);
+  z-index: 1; */
+    background-color: rgb(255, 255, 255);
+    color: rgb(3, 3, 3);
+    position: fixed;
+    top: 0px;
+    box-shadow: 0 0px 1px 0 rgb(0 0 0 / 20%), 0 10px 8px 0 rgb(0 0 0 / 19%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.nav-non-sticky-css {
+    /* box-shadow: 0 0px 1px 0 rgb(0 0 0 / 20%), 0 10px 8px 0 rgb(0 0 0 / 19%); */
+    /* z-index: 1; */
+    background-color: rgb(255, 255, 255);
+    color: rgb(3, 3, 3);
+    position: static;
+    top: 0px;
+    box-shadow: 0 0px 1px 0 rgb(0 0 0 / 20%), 0 10px 8px 0 rgb(0 0 0 / 19%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+
+/* #nav-div {
+  margin-bottom: 20px;
+} */
+
+.nav-inner-div {
+    padding: 5px !important;
+    display: flex;
+    justify-content: space-between;
+    /* min-width: 1170px;
+            max-width: 1170px; */
+    width: 80%;
+    /* margin: auto; */
+    align-items: center;
+}
+
+.nav-log-img {
+    height: auto;
+    width: 100px;
+}
+
+.nav-btn-divs {
+    display: flex;
+}
+
+.nav-home-btn {
+    /* background: #ffffff; */
+    border-radius: 8px;
+    padding: 10px 8px !important;
+    /* color: black; */
+    border: 0px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 10px;
+}
+
+.nav-bg-color-btn {
+    background: #2f80ed;
+    border-radius: 8px;
+    padding: 10px 8px !important;
+    /* color: white; */
+    font-family: Inter;
+    border: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+@media (max-width: 700px) {
+    .nav-btn-divs {
+        visibility: hidden;
+    }
+    #log-img {
+        max-width: 30px;
+    }
+}
+
+
+/* email w4 completes ----------------------------------- updated*/

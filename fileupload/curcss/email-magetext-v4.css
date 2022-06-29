@@ -1,0 +1,104 @@
+:root {
+    --mt-temp: 100px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.email-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.email-right-container {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.email-form-container {
+    display: flex;
+    align-items: center;
+}
+
+.error-div {
+    visibility: hidden;
+}
+
+.text-image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.text-image-textcontainer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.email-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.email-submit-btn {
+    background-color: #2c2f33;
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    word-break: keep-all;
+}
+
+.email-btn-input-div {
+    margin-top: 10px;
+}
+
+@media (max-width: 1024px) {
+     :root {
+        --mt-temp: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+     :root {
+        --mt-temp: 50px;
+    }
+}
+
+@media (max-width: 640px) {
+     :root {
+        --mt-temp: 50px;
+    }
+    .email-main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .text-image-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+     :root {
+        --mt-temp: 50px;
+    }
+}

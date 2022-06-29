@@ -1,0 +1,101 @@
+.ql-editor {
+    box-sizing: border-box;
+    line-height: 1.5;
+    height: auto;
+    outline: none;
+    overflow-y: hidden;
+    padding: 0px 0px;
+    tab-size: 4;
+    -moz-tab-size: 4;
+    text-align: left;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+html {
+    font-size: 16px;
+}
+
+a {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.ql-font-DMSerifDisplay {
+    font-family: DM Serif Display !important;
+}
+
+.ql-font-Raleway {
+    font-family: "Raleway", sans-serif;
+}
+
+.ql-font-EBGaramond {
+    font-family: "EB Garamond", serif !important;
+}
+
+.ql-font-Lato {
+    font-family: "Lato", sans-serif;
+}
+
+.ql-font-Monoton {
+    font-family: "Monoton", cursive;
+}
+
+.ql-font-NotoSerifGeorgian {
+    font-family: "Noto Serif Georgian", serif;
+}
+
+.ql-font-OpenSans {
+    font-family: "Open Sans", sans-serif;
+}
+
+.ql-font-WorkSans {
+    font-family: "Work Sans", sans-serif;
+}
+
+.ql-font-RobotoSlab {
+    font-family: "Roboto Slab", serif;
+}
+
+.ql-font-sofia {
+    font-family: "Sofia", cursive;
+}
+
+.ql-font-inconsolata {
+    font-family: "Inconsolata", monospace;
+}
+
+.ql-font-roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.ql-font-slabo {
+    font-family: "Slabo", serif;
+}
+
+.ql-font-ubuntu {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.ql-font-RobotoSlab {
+    font-family: "Roboto Slab", serif;
+}
+
+.ql-font-rocksalt {
+    font-family: "Rock Salt", cursive;
+}
+
+.ql-font-spacegrotesk {
+    font-family: "Space Grotesk", sans-serif;
+}
